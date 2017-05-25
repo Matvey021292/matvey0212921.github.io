@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+header{
+    background-color: #49473f;
+    padding: 10px 0
+}
+ .container h2,
+ .container h1,
+ .container a,
+ .container p{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 35px;
+     font-weight: 700;
+     line-height: 10px;
+     text-transform: uppercase;
+     color: white;
+ }
+ header .container a{
+    font-size: 13px;
+    line-height: 42px;
+    color: #b8b8b8;
+}
+.nav>li>a:focus,
+.nav>li>a:hover{
+    color: #18cfab;
+    background: none;
+}
+.menu-carusel .item{
+    min-height: 600px;
+}
+.menu-carusel .bgslide{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+}
+.menu-carusel .container{
+    width: 100%;
+}
+section{
+    background-color: #171717;
+}
+section  .container h2 span{
+    color: #18cfab;
+}
+.container h1{
+    font-size: 79px;
+    font-weight: 400;
+    line-height: 84px;
+}
+h3{
+    color: #d4d4d4;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 84px;
+    padding: 50px 0;
+}
+.container p{
+    font-size: 13px;
+    line-height: 32px;
+}
+.container button{
+    width: 165px;
+    height: 60px;
+    background-color: #18cfab;
+    border-radius: 4px;
+    padding: 0;
+    color: white;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.container .btn-default{
+    background-color: #00cbf6;
+}
+.top-section .row>div{
+    background-color: #18cfab;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 115px 0;
+    border-top: 5px solid #fff;
+
+}
+.top-section .row>div:nth-child(odd){
+    background-color: #1c2a33;
+    color: #18cfab;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 104px 0;
+    border-top: 5px solid #18cfab;
+
+}
+h4{
+    color: #4e4e4e;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    padding:80px 0;
+}
+.backgroundWhite{
+    background: #fff;
+}
+.text-info a{
+    color: #717171;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: none;
+}
+.text-info a:hover{
+    color: #18cfab;
+    text-decoration: none;
+}
+.our-history span,
+.text-info span{
+    color: #777;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.text-info:nth-child(even){
+    padding-bottom: 80px;
+}
+.our-history a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 42px;
+    color: whitesmoke;
+
+}
+.our-history .list-style-img ul li{
+    list-style: none;
+    position: relative;
+    padding: 10px 0;
+}
+.our-history .list-style-img ul li:before{
+    content: "";
+    background-image: url(../img/checkin.png);
+    width: 23px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    left: -40px;
+
+}
+.our-history .tab-content{
+    padding: 40px 0;
+}
+.our-history {
+  background-color: #1c2a33;
+    background-color: #1c2a33;
+    height: 676px;
+}
+.progress{
+    height: 39px;
+    background: none;
+    border: 1px solid #959595;;
+}
+.progress-bar-success{
+    width: 401px;
+    background-color: #9c5da5;
+    border-radius: 4px;
+
+}
+section .progress span{
+    color: white;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 20px;
+}
+section .progress>div{
+    height: 100%;
+}
+.nav-tabs{
+    border: none;
+}
+
+.nav-tabs>li>a:hover{
+    border: none;
+}
+.nav-tabs>li>a:focus{
+    background: none;
+}
+.our-history .nav-tabs>li.active>a,.our-history .nav-tabs>li.active>a:focus,.our-history .nav-tabs>li.active>a:hover {
+    color: #18cfab;
+    cursor: default;
+     background: none;
+    border: none;
+}
+.our-working .nav-tabs a{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #717171;
+
+}
+.our-working ul{
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    margin-bottom: 60px;
+}
+.our-working ul li:focus a,
+.our-working ul li:hover a{
+    border: 2px solid #18cfab;
+    color: #18cfab;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.our-working .col-lg-3:hover .opacity{
+    display: block;
+}
+.our-working .col-lg-3 img{
+    background-color: #24413e;
+}
+.our-working .col-lg-3:nth-child(odd) img{
+    background-color: #8a8a8a;;
+}
+
+.opacity{
+    width: 285px;
+    height: 207px;
+    position: absolute;
+    z-index: 1;
+    border-top:2px solid #18cfab;
+    box-sizing: border-box;
+    padding-top: 70px;
+    display: none;
+}
+.opacity img{
+    width: 40px;
+    height: 40px;
+
+}
+.opacity a{
+    color: #18cfab;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+
+}
+.opacity span{
+    color: #8a8a8a;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+}
+section .our-work-man ul li :focus,
+section .our-work-man ul li:hover a{
+    color: #fff;
+    background: #18cfab;
+    position: relative;
+
+}
+.our-work-man ul li:hover::after{
+    content: "";
+    border: 15px solid transparent;
+    border-top: 13px solid #19d2ad;
+    position: absolute;
+    left: 41%;
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    background-color: #18cfab;
+    border: 1px solid #ddd;
+}
+section .our-work-man ul{
+    margin-bottom: 20px;
+}
+
+/*button*/
+
+
+
+
